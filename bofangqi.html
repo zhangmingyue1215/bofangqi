@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" defer src = "bofangqi.js"></script>
+	<link rel="stylesheet" type="text/css" href="bofangqi.css">
+</head>
+<body>
+
+	<div id="mouseover">
+		<video src="https://media.w3.org/2010/05/sintel/trailer.mp4" poster="poster.jpg" id="myvideo"></video>
+		<img src="big_bofang.png" id="big_bofang" class="big_bofang">
+		<div id="control">
+			<!-- 播放/暂停 -->
+			<img src="bofang.png" id="bofang" class="bofang">
+			<img src="zanting.png" id="zanting" class="zanting">
+
+			<!-- 播放时间 -->
+			<div id="video_time">00 : 00
+         		<div id="currentTime"></div>
+         		<div id="duration"></div>
+    		</div>
+
+    		<!-- 进度条 -->
+    		<!-- <progress value="0" max="100" id="progress"></progress> -->
+    		<div id="pro_bottom"></div>
+    		<div id="pro_up"></div>
+    		<div id="pro_ball" draggable="true"></div>
+    		
+    		<!-- 静音功能 -->
+			<img src="jingyin.png" id="muted" class="muted">
+			<img src="open.png" id="open" class="open">
+
+			<!-- 音量增加减少 -->
+			<img src="jiahao.png" id="jiahao">
+			<img src="jianhao.png" id="jianhao">
+
+			<div id="div_bottom"></div>
+			<div id="div_top"></div>
+			<div id="div_ball" draggable = "true"></div>
+		</div>
+	</div>
+	
+	<div id="file">
+		<input type="file" id="file_search">
+		<button id="addlook">确定观看</button>
+	</div>
+	
+	
+
+</body>
+</html>
