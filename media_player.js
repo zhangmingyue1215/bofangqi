@@ -5,6 +5,7 @@
 	var big_bofang = document.getElementById('big_bofang');
 	var control = document.getElementById('control');
 
+	//视频全屏事件
 	myVideo.ondblclick = function(){
 		myVideo.webkitRequestFullscreen();
 	}
@@ -13,6 +14,7 @@
 	allscreen.onclick = function() {
 		myVideo.webkitRequestFullscreen();
 	}
+	
 	// 鼠标悬浮到视频上控制条出现
 	var mouseover = document.getElementById('mouseover');
 	mouseover.onmouseover = function(){
