@@ -160,3 +160,11 @@
 }
 
 
+#allscreen{
+	position: absolute;
+	left: 870px;
+	top: 14px;
+	width: 20px;
+	height: 20px;
+}
+
